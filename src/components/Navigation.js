@@ -1,7 +1,6 @@
 import { Link, withRouter } from "react-router-dom";
 
 const Navigation = (props) => {
-  console.log(props);
   return (
     <nav>
       <ul>
