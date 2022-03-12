@@ -39,4 +39,7 @@ ul li {
 }
 footer {
   background-color: rgb(226, 221, 221);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
