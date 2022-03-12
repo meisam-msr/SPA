@@ -1,11 +1,5 @@
-import Layout from "../Layout/Layout";
-
 function HomePage(props) {
-  return (
-    <Layout>
-      <p>اینجا صفحه خانه است</p>
-    </Layout>
-  );
+  return <p>اینجا صفحه خانه است</p>;
 }
 
 export default HomePage;
