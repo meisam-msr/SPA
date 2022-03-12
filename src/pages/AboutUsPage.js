@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Layout from "../Layout/Layout";
 
 function AboutUs(props) {
   return (
-    <>
+    <Layout>
       <p>اینجا صفحه درباره ماست</p>
-      <Link to="/">go to HomePage</Link>
-    </>
+    </Layout>
   );
 }
 

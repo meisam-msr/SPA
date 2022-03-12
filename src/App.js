@@ -6,7 +6,6 @@ import Navigation from "./components/Navigation";
 function App() {
   return (
     <BrowserRouter>
-      <Navigation />
       <Route path="/" exact={true} component={HomePage} />
       <Route path="/about-us" component={AboutUs} />
     </BrowserRouter>

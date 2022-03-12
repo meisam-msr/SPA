@@ -1,9 +1,10 @@
+import Layout from "../Layout/Layout";
+
 function HomePage(props) {
-//   props.history.push("/about-us");
   return (
-    <>
+    <Layout>
       <p>اینجا صفحه خانه است</p>
-    </>
+    </Layout>
   );
 }
 
