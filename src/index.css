@@ -43,3 +43,6 @@ footer {
   bottom: 0;
   width: 100%;
 }
+.aside {
+  background-color: rgb(148, 235, 235) !important;
+}
