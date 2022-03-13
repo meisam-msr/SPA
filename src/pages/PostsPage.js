@@ -1,6 +1,6 @@
 const PostsPage = (props) => {
   const id = props.match.params.id || 1;
-  console.log(props.match.params);
+  // console.log(props.match.params);
 
   return (
     <div>
