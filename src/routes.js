@@ -12,8 +12,8 @@ const routes = [
   { path: "/about-us", component: AboutUs },
   { path: "/blogs", component: BlogPage },
   { path: "/posts/:id([0-9]+)?", component: PostsPage },
-  { component: NotFound },
   { path: "/", component: HomePage, exact: true },
+  { component: NotFound },
 ];
 
 export default routes;
