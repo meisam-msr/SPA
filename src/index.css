@@ -46,3 +46,10 @@ footer {
 .aside {
   background-color: rgb(148, 235, 235) !important;
 }
+.activeTab{
+  color: rgb(161, 17, 197);
+  font-weight: bold;
+}
+.sideBar{
+  display: flex;
+}
