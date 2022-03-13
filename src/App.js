@@ -7,9 +7,9 @@ function App() {
   return (
     <Layout>
       <Switch>
-      {routes.map((route) => (
-        <Route {...route} />
-      ))}
+        {routes.map((route, index) => (
+          <Route {...route} key={index} />
+        ))}
       </Switch>
     </Layout>
   );
