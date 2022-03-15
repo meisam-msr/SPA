@@ -20,7 +20,8 @@ function App() {
         <Route path="/blogs" element={<BlogPage />} />
         <Route path="/blogs/:id" element={<Blog />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/posts/:id([0-9]+)?" element={<PostsPage />} />
+        <Route path="/posts" element={<PostsPage />} />
+        <Route path="/posts/:id" element={<PostsPage />} />
         <Route path="/profile/*" element={<Profile />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
