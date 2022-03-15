@@ -22,7 +22,7 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/posts/:id([0-9]+)?" element={<PostsPage />} />
         <Route path="/profile/*" element={<Profile />} />
-        <Route element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
   );
